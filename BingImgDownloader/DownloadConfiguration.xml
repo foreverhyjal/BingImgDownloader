@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Config>
     <DownloadInfo>
-        <url>http://bing.com</url>
-        <regex>'\S*.jpg'</regex>
-        <num>1</num>
-        <path>D:/Software/飞秋/</path>
+        <url>http://bing.com</url> <!-- web url which you want download img -->
+        <regex>'\S*.jpg'</regex>   <!-- regular expression that you want match -->
+        <num>1</num>               <!-- num of img you want download -->
+        <path>./</path> <!-- output path of img -->
     </DownloadInfo>
 </Config>
